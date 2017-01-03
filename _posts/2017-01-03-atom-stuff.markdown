@@ -7,6 +7,7 @@ categories: atom coffeescript
 ## Added a timestamp menu item, localized to my taste
 
 In `~/.atom/init.coffee`:
+
 ```
 atom.commands.add 'atom-text-editor', 'Timestamp (swedish)', ->
   return unless editor = atom.workspace.getActiveTextEditor()
@@ -16,6 +17,7 @@ atom.commands.add 'atom-text-editor', 'Timestamp (swedish)', ->
 
   selection.insertText(tstext)
 ```
+
 ## Added a snippet for headers to jekyll posts
 
 (And this is the first test!) In `~/.atom/snippets.cson`:
