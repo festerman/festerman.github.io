@@ -4,7 +4,6 @@ title:  "Hacked Atom a bit"
 date:   2017-01-03 17:00:48
 categories: atom coffeescript
 ---
-
 ## Added a timestamp menu item, localized to my taste
 
 In `~/.atom/init.coffee`:
