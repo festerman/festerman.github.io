@@ -18,6 +18,13 @@ atom.commands.add 'atom-text-editor', 'Timestamp (swedish)', ->
   selection.insertText(tstext)
 ```
 
+and in `~/.atom/keymap.cson`:
+
+```
+'atom-workspace':
+  'ctrl-alt-shift-T': 'Timestamp (swedish)'
+```
+
 ## Added a snippet for headers to jekyll posts
 
 (And this is the first test!) In `~/.atom/snippets.cson`:
